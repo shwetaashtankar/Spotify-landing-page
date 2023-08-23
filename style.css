@@ -1,0 +1,307 @@
+/* css code goes here */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+
+
+body{
+background-color:rgb(25,20,20);
+margin: 0px;
+font-family:Poppins,sans-serif;
+font-weight: 300 500 700;
+}
+
+nav{
+    background-color:rgb(25,20,20);
+    display:flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    }
+
+      nav img{
+        height: 60px;
+        width: 60px;
+    }
+
+    ul{
+        list-style: none;
+        display: flex;
+        gap: 15px;
+    }
+
+    li a{
+        text-decoration: none;
+        color: rgb(255,255,255);
+    }
+
+    li a:hover{
+        color: rgb(30,215,96);
+    }
+    
+    #download{
+        background-color:rgb(25,20,20);
+        text-align: center;
+        color: rgb(255,255,255);
+        padding: 10px;
+        padding-right: 20px;
+        padding-left: 20px;
+         }
+
+    #download h1{
+        font-weight: 700;
+        line-height: 2;
+    }
+
+    #download h2{
+        font-weight: 500;
+        line-height: 3;
+    }
+    
+    #download button{
+        background-color: rgb(255,255,255);
+        padding: 12px;
+        font-family:Poppins,sans-serif;
+        font-weight: 500;
+        border-radius: 20px;
+        cursor:pointer;
+        margin-bottom: 35px;
+    }
+    #download button:hover{
+        transform: scale(1.02);
+    }
+    @media(max-width:650px){
+        #download button{
+            width: 100%;
+            margin-bottom: 10px;
+        }
+    }
+    #difference-table{
+        background-color: rgb(246,246,246);
+        text-align: center;
+        padding: 20px 40px;
+    }
+    #difference-table h1{
+        font-weight: 700;
+        padding: 0px 50px;
+    }
+    #difference-table table{
+        max-width: 500px;
+        margin: 0 auto;
+        padding: 20px 45px;
+        width: 100%;
+    }
+    table th{
+        font-weight: 300;
+    }
+    table td{
+        border-bottom: 1px solid rgb(170,170,170);
+    }
+    .fa-circle-check{
+        color: rgb(30,215,96);
+        font-size: 30px;
+    }
+    .fa-circle-xmark{
+        color: rgb(255,0,0);
+        font-size: 30px;
+    }
+    #difference-table button{
+        background-color: rgb(25,20,20);
+        padding: 12px 40px;
+        font-weight: 500;
+        border-radius: 20px;
+        cursor: pointer;
+        font-family: Poppins,sans-serif;
+        color: rgb(255,255,255);
+        }
+
+        #premium {
+            background-color: rgb(255,255,255);
+            text-align: center;
+            padding: 20px;
+        }
+
+        #premium h2 {
+            margin: 0;
+        }
+
+        #premium .price-cards {
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            grid-template-rows: repeat(2,1fr);
+            gap: 10px;
+            text-align: left;
+            padding: 20px 100px;
+        }
+
+        #premium .price-cards article {
+            border-radius: 10px;
+            box-shadow: 0px 0px 5px rgb(170,170,170);
+            padding: 20px;
+        }
+
+        #premium article button {
+            background-color: rgb(25,20,20);
+            padding: 12px 40px;
+            font-family: 'Poppins', sans-serif;
+            color: rgb(255,255,255);
+            font-weight: 500;
+            border-radius: 20px;
+            cursor: pointer;
+            width: 100%;
+        }
+
+        #premium .price-cards button:hover {
+            transform: scale(1.02);
+        }
+        #premium .card-header {
+            border-bottom: 1px solid rgb(170,170,170); 
+        }
+
+        #premium .card-header span {
+            display: inline-block;
+            width: max-content;
+            font-size: .75rem;
+            background-color: rgb(13,114,234);
+            color: rgb(255,255,255);
+            padding: 5px;
+            font-weight: 500;
+            border-radius: 5px;
+            margin-bottom: 5px;
+        }
+
+        #premium .card-header h3 {
+            margin-bottom: 0;
+        }
+
+        #premium .card-header p {
+            margin: 0;
+            font-weight: 300;
+        }
+
+        #premium .card-body li {
+            font-weight: 500;
+        }
+
+         @media  (max-width: 650px) {
+              #premium .price-cards {
+                display:grid;
+                grid-template-columns: 1fr;
+                grid-template-rows: repeat(4, auto);
+                padding: 20px;
+                }
+        }
+
+        /* spotify landing page 5 */
+
+#students-offer{
+    background-color:rgb(255, 255, 255) ;
+    text-align: center;
+    padding: 20px;
+}
+
+#students-offer button{
+    background-color:rgb(255, 255, 255);
+    padding: 12px 40px ;
+    color:rgb(25, 20, 20) ;
+    font-weight: 700;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family:Poppins,sans-serif;
+}
+
+#students-offer button:hover{
+    transform: scale(1.02);
+}
+
+/* form ----- */
+
+form{
+    margin-top:20px ;
+    border: 1px solid  rgb(170, 170, 170);
+    border-radius: 10px;
+    padding: 25px;
+    text-align: left;
+}
+
+/* email */
+#email{
+ font-family:Poppins,sans-serif;
+ padding: 5px;
+ margin-bottom: 5px;   
+ width:100%; 
+}
+
+/* first name */
+#first-name,#last-name{
+    font-family:Poppins,sans-serif;
+    padding: 5px;
+    width: 46%;
+
+}
+
+
+#students-offer p{
+margin: 0;
+}
+
+/* select field  */
+#country,#college-university{
+    font-family:Poppins,sans-serif;
+    padding: 5px;
+    width: 100%;
+    margin-bottom: 10px;
+    }
+
+  
+
+   #contact-number{
+       display:block;
+       font-family:Poppins,sans-serif;
+       padding: 5px;
+       width: 100%;
+       margin-bottom: 10px;
+   }   
+
+   /* checkbox */
+   #consent-checkbox{
+       cursor: pointer;
+   }
+
+   #students-offer button{
+       display:block;
+       margin-top: 10px;
+
+   }
+   
+   @media (max-width:650px){
+   #first-name,#last-name{
+        width: 100%;
+        margin-bottom:5px;
+    }
+}
+
+
+/* footer section */
+#contact{
+    text-align: center;
+    padding: 40px;
+    color:rgb(255, 255, 255);
+
+}
+
+#contact a{
+    text-decoration: none;
+
+}
+
+#contact i{
+    color:rgb(255, 255, 255) ;
+    margin-left: 10px;
+    font-size: 1.5rem;
+    }
+#contact i:hover{
+    color: rgb(30, 215, 96);
+}
+
+#contact p{
+    color: rgb(170, 170, 170) ;
+}
